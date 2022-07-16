@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Img/garrett-parker-DlkF4-dbCOU-unsplash1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
+  height: 90px;
+  background-color: rgba(242, 120, 92, 0.7);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
+  box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
+}
+
+.logo {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #ffffff;
+  font-size: 32px;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation {
+  display: flex;
+  margin: 0 -42px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list_title {
+  flex: 1 1 auto;
+  margin-left: 42px;
+  color: #ffffff;
+}
+
+.mr0 {
+  margin-left: 0;
+} 
+
+.login {
+  border: none; 
+  outline: none;
+  background: transparent;
+  background-color: rgba(13, 96, 111, 1);
+  color: #ffffff;
+  width: 103px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
 }
