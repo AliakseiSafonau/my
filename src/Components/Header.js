@@ -1,5 +1,5 @@
 import React from 'react';
-import Vector from'./Img/Vector.png';
+import Vector from'../Img/Vector.png';
 
 class Header extends React.Component {
     render () {
