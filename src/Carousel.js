@@ -6,9 +6,19 @@ export const Carousel = ({children}) => {
     const [images, setImages] = useState([])
     const [offset, setOffset] = useState(0)
 
+    let ellipses = [-860, 0, 860]
+    
+    const handlerEllipses = (arr, x) => {
+        let result = arr.map(item => {
+            if (x === item) { return 'active-ellipse'} else return '';
+        })
+
+        return result;
+    }
+
     const handlerLeft = () => {
         setOffset((currentOffset) => {
-            const newOffset = currentOffset + 860
+            const newOffset = currentOffset + 860;
             return Math.min(newOffset, 860);
         })
     }
@@ -43,6 +53,11 @@ export const Carousel = ({children}) => {
                 }}>{images}</div>
             </div>
             <button className='arrow arrowRight' onClick={handlerRight}></button>
+            <div className='ellipses'>
+                <div className={`ellipse first-ellipse ${handlerEllipses(ellipses, offset)[2]}`}></div>
+                <div className={`ellipse second-ellipse ${handlerEllipses(ellipses, offset)[1]}`}></div>
+                <div className={`ellipse third-ellipse ${handlerEllipses(ellipses, offset)[0]}`}></div>
+            </div>
         </div>
     )
 }
