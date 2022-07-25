@@ -1,18 +1,18 @@
 .main-content {
+    margin-top: 3.195%;
     height: 800px;
     width: 100%;
-    margin-bottom: 84px;
 }
 
 .window {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 1.6%;
 }
 
 .content {
-    margin-left: -548px;
+    margin-left: -38.556%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -26,26 +26,27 @@
 .arrowLeft {
     position: absolute;
     z-index: 4;
+    padding: 0;
     height: 800px;
-    width: 253px;
+    width: 17.7%;
     border-bottom-right-radius: 16px;
     border-top-right-radius: 16px;
     border: none; 
-    background-color: rgba(152, 207, 195, 0);
+    background-color: rgba(152, 207, 195, 0.5);
     cursor: pointer;
 }
 
 .arrowRight {
     position: absolute;
-    /*z-index: 1;*/
-    top: 99px;
-    right: 0;
+    z-index: 4;
+    top: 1282px;
+    left: 82.3%;
     height: 800px;
-    width: 253px;
+    width: 17.7%;
     border-bottom-left-radius: 16px;
     border-top-left-radius: 16px;
     border: none; 
-    background-color: rgba(152, 207, 195, 0);
+    background-color: rgba(152, 207, 195, 0.5);
     cursor: pointer;
 }
 
@@ -61,7 +62,7 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80px;
+    width: 5.556%;
   }
   
   .ellipse {

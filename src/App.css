@@ -11,14 +11,13 @@ body {
                     url("./Img/garrett-parker-DlkF4-dbCOU-unsplash1.png"),
                     url("./Img/Rectangle33.png");
                     
-  
   background-repeat: no-repeat;
   background-position: bottom 62px right, top, bottom;
 }
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 90px;
   background-color: rgba(242, 120, 92, 0.7);
@@ -27,22 +26,24 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
 }
 
-.logo {
+.header-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 83.334%;
+}
+
+.logo {
   color: #ffffff;
   font-size: 32px;
 }
 
 .navigation {
   display: flex;
-  margin: 0 -42px;
+  width: 43.917%;
+  align-items: center;
+  margin-left: 16%;
 }
 
 .list_title {
-  flex: 1 1 auto;
-  margin-left: 42px;
   font-family: 'Red Hat Text', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -50,12 +51,20 @@ body {
   line-height: 21px;
 
   color: #FFFFFF;
-  
 }
 
-.mr0 {
-  margin-left: 0;
-} 
+.mlra {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.mra {
+  margin-right: auto;
+}
 
 .login {
   border: none; 
@@ -63,8 +72,9 @@ body {
   background: transparent;
   background-color: rgba(13, 96, 111, 1);
   color: #ffffff;
-  width: 103px;
-  padding: 10px 10px;
+  width: 8.584%;
+  padding: 0.834%;
+  margin-left: auto;
   border-radius: 10px;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
   -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 3px 0px rgba(13, 96, 111, 0.16);
@@ -72,11 +82,11 @@ body {
 }
 
 .preview {
-  position: absolute;
-  top: 122px;
-  left: 120px;
-  width: 892px;
+  margin-top: 2.223%;
+  margin-left: 8.334%;
+  width: 61.945%;
 }
+
 .explore {
   margin: 0;
   font-family: 'Aleo', sans-serif;
@@ -88,9 +98,8 @@ body {
 }
 
 .recommendations {
-  position: absolute;
-  top: 224px;
   margin: 0;
+  margin-top: 3.5%;
   font-family: 'Aleo', sans-serif;
   font-style: italic;
   font-weight: 700;
@@ -100,44 +109,43 @@ body {
 }
 
 .search {
-  position: relative;
-  width: 892px;
-  top: 100px;
+  margin-top: 5.158%;
 }
 
 .search-inpt {
   border: none; 
   outline: none;
   background: transparent;
+  
 
+  padding: 0;
   width: 100%;
   height: 95px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.7);
 }
 
-::placeholder {
-  position: absolute;
-  left: 41px;
-  top: 32px;
+.search-inpt::placeholder {
+  padding-left: 4.5%;
   font-family: 'Aleo', sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-
   color: #F2785C;
 }
 
 .search-btn {
   border: none; 
   outline: none;
+  padding: 0;
   
-  position: absolute;
-  width: 228px;
+  width: 25.562%;
   height: 59px;
-  right: 18px;
-  top: 18px;
+
+  position: relative;
+  bottom: 77px;
+  left: 72.5%;
 
   background: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -152,13 +160,10 @@ body {
 }
 
 .steps {
-  position: absolute;
-  width: 1177px;
-  height: 247px;
-  left: 131px;
-  top: 845px;
-  margin: 0;
-  padding: 0;
+  width: 81.737%;
+  margin-top: 19.152%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .steps_title {
@@ -173,12 +178,7 @@ body {
 
 .frames {
   display: flex;
-  height: 154px;
-  margin-top: 40px;
-}
-
-.frame {
-  
+  margin-top: 3.399%;
 }
 
 .cube {
@@ -191,10 +191,12 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  
 }
 
 .cube-title {
+  text-align: center;
+  margin-top: 30px;
   font-family: 'Aleo', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -208,7 +210,7 @@ body {
 }
 
 .centre {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-right: auto;
 }
 
@@ -217,11 +219,8 @@ body {
 }
 
 .destinations {
-  position: absolute;
+  margin-top: 6.737%;
   width: 100%;
-  height: 1042px;
-  top: 1189px;
-  margin-bottom: 80px;
 }
 
 .destinations-title {
@@ -240,7 +239,6 @@ body {
   justify-content: center;
   align-items: center;
   user-select: none;
-  width: 800px;
   border-radius: 16px;
 }
 
@@ -261,19 +259,22 @@ body {
   background-repeat: no-repeat;
   margin-right: 60px;
 }
+.btn-find{
+  margin-top: 5.834%;
 
+}
 .btn-find, .btn-stories {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 32px;
+  padding: 0;
   gap: 10px;
 
   margin-left: auto;
   margin-right: auto;
 
-  width: 228px;
+  width: 15.834%;
   height: 59px;
 
   border: none; 
@@ -286,9 +287,6 @@ body {
 }
 
 .btn-find_titlle, .btn-stories_titlle {
-  width: 116px;
-  height: 32px;
-  
   font-family: 'Red Hat Text', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -298,12 +296,11 @@ body {
 }
 
 .stories {
-  position: absolute;
-  width: 1201px;
+  margin-top: 5.556%;
+  width: 83.403%;
   height: 1322px;
-  left: 119px;
-  top: 2311px;
-  margin-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .stories_title {
@@ -315,18 +312,18 @@ body {
   color: #F2785C;
 
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 6.662%;
 }
 
 .story {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 2.499%;
+  height: 18.911%;
 }
 
 .story-img {
-  width: 400px;
-  height: 250px;
-  
+  width: 33.306%;
+  height: 100%;
   filter: drop-shadow(0px 4px 4px #0D606F);
   border-radius: 16px;
   background-repeat: no-repeat;
@@ -335,22 +332,30 @@ body {
 
 .img1 {
   background: url("./Img/Rectangle29.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img2 {
   background: url("./Img/Rectangle30.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img3 {
   background: url("./Img/Rectangle31.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img4 {
   background: url("./Img/Rectangle32.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .story-list {
-  width: 760px;
+  width: 63.364%;
   margin-left: auto;
 }
 
@@ -380,17 +385,18 @@ body {
 }
 
 .btn-stories {
-  margin-top: 40px;
+  margin-top: 3.331%;
 }
 
 .footer {
-  position: absolute;
-  top: 3688px;
-  left: 590px;
-
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-top: 3.82%;
+  margin-left: 40.973%;
+  width: 50.6229%;
+ 
 }
 
 .footer-title {
@@ -400,12 +406,12 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
-  margin-right: 328px;
 }
 
 .footer-links {
   display: flex;
-  width: 140.96px;
+  width: 19.339%;
+  margin-left: auto;
 }
 
 .link {

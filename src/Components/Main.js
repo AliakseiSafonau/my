@@ -10,7 +10,7 @@ class Main extends React.Component {
         return (
             <main className='main'>
                 <section className="preview">
-                    <p className="explore">Explore the beauty of the World</p> 
+                    <h1 className="explore">Explore the beauty of the World</h1> 
                     <p className="recommendations">Receive personalized recommendations for countries, hotels, activities and more</p>
                     <form className="search">
                         <input type="search" className="search-inpt" placeholder="What would you like to do?"></input>
