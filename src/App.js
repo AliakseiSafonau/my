@@ -6,15 +6,23 @@ import Footer from './Components/Footer';
 import Modal from './Components/PopUp/Popup';
 
 function App () {
+  const [modalActive, setModalActive] = useState(false);
+  const [modalVariant, setModalVariant] = useState(true);
 
-  const [modalActive, setModalActive] = useState(true)
+  const handleModalChange = (x) => {
+    return setModalVariant(x)
+  }
+  
+  const handleStateChange = () => {
+    return setModalActive(true)
+  }
 
   return (
   <div className='container'>
-    <Header />
+    <Header onChange = {handleStateChange}/>
     <Main />
     <Footer />
-    <Modal active={modalActive} setActive={setModalActive}/>
+    <Modal active={modalActive} setActive={setModalActive} modal={modalVariant} handleChange={handleModalChange}/>
   </div>)
 }
 

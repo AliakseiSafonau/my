@@ -2,7 +2,6 @@ import {useState, useEffect, Children, cloneElement} from 'react';
 import './Carousel.css';
 
 export const Carousel = ({children}) => {
-    
     const [images, setImages] = useState([])
     const [offset, setOffset] = useState(0)
 
