@@ -3,7 +3,7 @@
 }
 
 body {
-  height: 3735px;
+  
   margin: 0;
   padding: 0;
   
@@ -82,9 +82,9 @@ body {
 }
 
 .preview {
-  margin-top: 2.223%;
-  margin-left: 8.334%;
-  width: 61.945%;
+  margin-top: 2.249%;
+  margin-left: 8.433%;
+  width: 62.685%;
 }
 
 .explore {
@@ -116,7 +116,6 @@ body {
   border: none; 
   outline: none;
   background: transparent;
-  
 
   padding: 0;
   width: 100%;
@@ -210,7 +209,7 @@ body {
 }
 
 .centre {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-right: auto;
 }
 
@@ -297,7 +296,7 @@ body {
 
 .stories {
   margin-top: 5.556%;
-  width: 83.403%;
+  width: 84.4%;
   height: 1322px;
   margin-left: auto;
   margin-right: auto;
@@ -393,10 +392,10 @@ body {
   align-items: center;
   justify-content: center;
 
-  margin-top: 3.82%;
+  margin-top: 3.866%;
   margin-left: 40.973%;
-  width: 50.6229%;
- 
+  width: 51.228%;
+  padding-bottom: 15px;
 }
 
 .footer-title {

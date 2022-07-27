@@ -1,18 +1,24 @@
 .modal {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0,0,0,0.4);
     position: fixed;
     top: 0;
     left: 0;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scale(0);
+    
+    background-color: rgba(0,0,0,0.5);
+    transition: background-color 2s linear 1s;
+    transform: translateY(-100%);
+    transition: transform 500ms linear;
 }
 
 .modal.active {
-    transform: scale(1);
+    transition: background-color 0.1s 0.5s ease-out;
+    transform: translateY(0);
+    
 }
 
 .modal-content {
@@ -36,7 +42,6 @@
     line-height: 38px;
 
     color: #0D606F;
-
 }
 
 .facebook-btn {
